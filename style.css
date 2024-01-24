@@ -1,0 +1,87 @@
+/* User and NavBar section */
+#searchbar {
+    z-index: 2;
+    padding-left: 40px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: rgb(211, 201, 254);
+    box-shadow: none;
+    
+}
+
+/* magnifi glass  */
+#glass {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    width: 2.5rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgb(211, 201, 254);
+    margin-top: 3px;
+}
+
+
+
+  
+/* Light mode styles */
+body {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #343a40;
+    color: #fff;
+  }
+/* gallery section */
+.card { 
+    border: none;
+    border-radius: 35px;
+}
+
+.cardy {
+    border: none;
+}
+.card img{
+    /* margin-bottom: 15px; */
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    /* height: 300px; */
+}
+
+/* .card img.card-v{
+    width: 100%;
+     height: 400px; 
+} */
+.gallery-title{
+    
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.card-user{
+    font-family: 'Lunasima', sans-serif;
+    position: relative;
+    font-size: medium;
+
+}
+
+.card-text{
+    font-family: 'Lunasima', sans-serif;
+    font-size: small;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+  
+  
+  
+  
