@@ -25,28 +25,17 @@
 
 
 
-  
-/* Light mode styles */
-body {
-    background-color: #f8f9fa;
-    color: #000;
-  }
-  
-  /* Dark mode styles */
-  body.dark-mode {
-    background-color: #343a40;
-    color: #fff;
-  }
+
+
 /* gallery section */
-.card { 
-    border: none;
-    border-radius: 35px;
-}
+
 
 .cardy {
+    
     border: none;
 }
 .card img{
+    
     /* margin-bottom: 15px; */
     object-fit: cover;
     object-position: center top;
@@ -59,11 +48,12 @@ body {
      height: 400px; 
 } */
 .gallery-title{
-    
+    color: aliceblue;
     font-family: 'JetBrains Mono', monospace;
 }
 
 .card-user{
+    
     font-family: 'Lunasima', sans-serif;
     position: relative;
     font-size: medium;
@@ -71,6 +61,7 @@ body {
 }
 
 .card-text{
+    
     font-family: 'Lunasima', sans-serif;
     font-size: small;
 }
