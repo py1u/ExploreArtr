@@ -92,8 +92,8 @@ function startLoader() {
             gsap.to(".hero img", {
                 scale: 1,
                 ease: "power3.inOut",
-                duration: 2,
-                delay: 3.5,
+                duration: 4,
+                delay: 4,
             });
 
             gsap.to(".hero-copy h1 span", { 
