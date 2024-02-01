@@ -2,21 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     SplitTextIntoSpans(".logo p");
     SplitTextIntoSpans(".hero-copy h1");
 
-    gsap.to(".img-holder img", {
-        left: 0,
-        stagger: 0.1,
-        ease: "power4.out",
-        duration: 1.5,
-        delay: 4,
-    });
-
-    gsap.to(".img-holder img", {
-        left: "110%",
-        stagger: -0.1,
-        ease: "power4.out",
-        duration: 1.5,
-        delay: 7,
-    });
+   
 });
 
 function SplitTextIntoSpans(selector) {
