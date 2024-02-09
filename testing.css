@@ -73,7 +73,7 @@ img {
 
 .counter,
 .logo p {
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -156,7 +156,7 @@ nav a,
 }
 
 .hero img {
-    transform: scale(2);
+    transform: scale(4);
 }
 
 .hero-copy {
