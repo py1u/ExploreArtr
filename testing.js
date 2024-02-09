@@ -93,8 +93,8 @@ function startLoader() {
             gsap.to("nav", {
                 top: "0",
                 ease: "power3.inOut",
-                duration: 2,
-                delay: 4,
+                duration: 4,
+                delay: 6,
             });
         }, 300);
     }
