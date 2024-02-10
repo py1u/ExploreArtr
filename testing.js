@@ -94,7 +94,7 @@ function startLoader() {
                 top: "0",
                 ease: "power3.inOut",
                 duration: 4,
-                delay: 6,
+                delay: 5,
             });
         }, 300);
     }
