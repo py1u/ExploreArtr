@@ -1,2 +1,6 @@
 # ExploreArtr
-Frontend Development of Homepage for Artr
+### Frontend Development Zone for Artr
+- Homepage, Portfolio, Landing
+
+
+
