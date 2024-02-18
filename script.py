@@ -27,7 +27,7 @@ def save_html_file(html_code, filename="output.html"):
 if __name__ == "__main__":
     html_code_template = '''
     <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
-        <div class="card border-0 rounded-4 mb-3" style="background-color: black;">
+        <div class="card border-0 rounded-4 mb-3" style="background-color: white;">
             {img_tag}
             <div class="card-user"> 
                 <div class="card-user mt-1 ms-3"><strong></strong></div>
@@ -42,7 +42,8 @@ if __name__ == "__main__":
         "assets/img4.jpg", "assets/img30.jpg", "assets/img10.jpg", "assets/img25.jpg", "assets/img11.jpg",
         "assets/img1.jpg", "assets/img6.jpg", "assets/img27.jpg", "assets/img16.jpg", "assets/img22.jpg",
         "assets/img13.jpg", "assets/img9.jpg", "assets/img20.jpg", "assets/img7.jpg", "assets/img18.jpg",
-        "assets/img23.jpg", "assets/img3.jpg", "assets/img26.jpg", "assets/img15.jpg", "assets/img28.jpg"
+        "assets/img23.jpg", "assets/img3.jpg", "assets/img26.jpg", "assets/img15.jpg", "assets/img28.jpg",
+        "assets/img29.jpg", "assets/img30.jpg", "assets/img31.jpg", "assets/img32.jpg"
     ]
 
     final_image_cards = ''
