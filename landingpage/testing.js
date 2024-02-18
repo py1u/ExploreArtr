@@ -78,7 +78,7 @@ function startLoader() {
             gsap.to(".hero img", {
                 scale: 1,
                 ease: "power3.inOut",
-                duration: 3,
+                duration: 4,
                 delay: 4,
             });
 
@@ -86,8 +86,8 @@ function startLoader() {
                 top: "0",
                 stagger: 0.1,
                 ease: "power3.inOut",
-                duration: 3,
-                delay: 4,
+                duration: 2,
+                delay: 5,
             });
 
             gsap.to("nav", {
