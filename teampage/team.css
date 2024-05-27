@@ -1,0 +1,50 @@
+body {
+    background-color: #010101;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 40px;
+    color: azure;
+}
+.team-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #010101;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.team-member .role {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    color: azure;
+}
