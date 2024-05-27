@@ -1,15 +1,15 @@
 const teamMembers = [
-    { name: "Member 1", role: "Yishan Luo", imageUrl: "assets/Yishan_Luo.jpg" },
-    { name: "Member 4", role: "Sabrina Lynch", imageUrl: "assets/Sabrina_Lynch.jpg" },
-    { name: "Member 5", role: "Leilia Lin", imageUrl: "assets/Leilia_Lin.jpg" },
-    { name: "Member 2", role: "Elaine Lin", imageUrl: "assets/Elaine_Lin.jpg" },
-    { name: "Member 6", role: "Julia Ma", imageUrl: "assets/Julia_Ma.jpg" },
-    { name: "Member 5", role: "Victor Louie", imageUrl: "assets/Victor_Louie.jpg" },
-    { name: "Member 7", role: "Peter Lu", imageUrl: "assets/Peter_Lu.jpg" },
-    { name: "Member 8", role: "Serena Lew", imageUrl: "assets/Serena_Lew.jpg" },
-    { name: "Member 9", role: "Haocheng Mai", imageUrl: "assets/Haocheng_Mai.jpg" },
-    { name: "Member 9", role: "Valerie Wong", imageUrl: "assets/Valerie_Wong.jpg" },
-    { name: "Member 1", role: "Alex Zhang", imageUrl: "assets/Alex_Zhang.jpg" }
+    { name: "Yishan Luo", role: "CEO & Founder, Finance + Outreach ", imageUrl: "assets/Yishan_Luo.jpg" },
+    { name: "Sabrina Lynch", role: "Consultant, Operations and Outreach", imageUrl: "assets/Sabrina_Lynch.jpg" },
+    { name: "Leilia Lin", role: "Technical Project Manager + Outreach", imageUrl: "assets/Leilia_Lin.jpg" },
+    { name: "Elaine Lin", role: "Product Design Director, Marketing Specialist", imageUrl: "assets/Elaine_Lin.jpg" },
+    { name: "Julia Ma", role: "Staff Software Engineer, Product Design Specialist", imageUrl: "assets/Julia_Ma.jpg" },
+    { name: "Victor Louie", role: "Data Scientist", imageUrl: "assets/Victor_Louie.jpg" },
+    { name: "Peter Lu", role: "Software Engineer III, full stack development", imageUrl: "assets/Peter_Lu.jpg" },
+    { name: "Serena Lew", role: "Software Engineer III, backend development", imageUrl: "assets/Serena_Lew.jpg" },
+    { name: "Haocheng Mai", role: "Software Engineer III, backend development", imageUrl: "assets/Haocheng_Mai.jpg" },
+    { name: "Valerie Wong", role: "Software Engineer II, full stack development", imageUrl: "assets/Valerie_Wong.jpg" },
+    { name: "Alex Zhang", role: "Software Engineer II, backend development", imageUrl: "assets/Alex_Zhang.jpg" }
 ];
 
 const teamContainer = document.querySelector('.team');
